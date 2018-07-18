@@ -1,0 +1,143 @@
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("IHEARTNUWEEK.jpg");
+
+    /* Set a specific height */
+    height: 80%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    margin-top:70px;
+}
+
+h1.namer{
+   font-family: Georgia;
+   color: white;
+   font-size: 48px;
+   text-align: center;
+}
+
+h1.name{
+   color: white;
+   font-family: sans-serif;
+   font-weight: 500;
+   font-size: 72px;
+   text-align: center;
+}
+
+#blue{
+  span;
+  background-color:azure;
+  margin:auto;
+  width:80%;
+  padding:30px;
+}
+
+.intro{
+  background-color: azure;
+}
+
+.introx{
+  font-family:Georgia;
+  font-size:16px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.sect{
+  margin:auto;
+  width:80%;
+  padding:25px;
+}
+
+.introbox{
+  font-family:Georgia;
+  font-size:18px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.mainBlock{
+  padding:20px;
+}
+
+.sections{
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 42px;
+}
+
+.descript{
+  font-family:Georgia;
+  color: turquoise;
+  text-align:center;
+}
+
+.subs{
+  font-family:Georgia;
+  color: lightskyblue;
+  text-align:center;
+}
+.items{
+  color: deepskyblue;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.frame{
+  vertical-align: middle;
+}
+
+.box{
+  float:left;
+  vertical-align: middle;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+img{
+  border-radius:25px;
+  border-style:solid;
+  margin:5px;
+}
+
+.gallery{
+  background-color: azure;
+}
+
+.contact{
+  text-align: center;
+}
+
+#hi{
+  span;
+  background-color: azure;
+}
+#photos{
+  text-align: center;
+  vertical-align: center;
+  display: block;
+}
