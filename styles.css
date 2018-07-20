@@ -184,6 +184,9 @@ img{
   text-align: center;
 }
 
+footer{
+  background-color: azure;
+}
 button{
   padding:10px;
   border-radius: 25px;
