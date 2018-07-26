@@ -9,7 +9,7 @@ body, html {
     background-image: url("IHEARTNUWEEK.jpg");
 
     /* Set a specific height */
-    height: 80%;
+    height: 75%;
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -42,6 +42,7 @@ h1.name{
    font-weight: 500;
    font-size: 72px;
    text-align: center;
+   position:center;
 }
 
 #blue{
@@ -49,7 +50,10 @@ h1.name{
   background-color:azure;
   margin:auto;
   width:80%;
-  padding:30px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
 }
 
 .intro{
@@ -58,7 +62,7 @@ h1.name{
 
 .introx{
   font-family:Georgia;
-  font-size:16px;
+  font-size:18px;
   margin-left:10px;
   margin-right:10px;
 }
@@ -135,6 +139,7 @@ img{
 
 #hi{
   span;
+  padding: 10px;
   background-color: azure;
 }
 #photos{
