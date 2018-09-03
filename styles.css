@@ -21,8 +21,8 @@ body, html {
 /* Place text in the middle of the image */
 .hero-text{
     text-align: center;
-    position: relative;
-    top: 70%;
+    position:relative;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
@@ -292,3 +292,10 @@ body {
   .mainBlock {
     width:100%;
   }
+
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .mainBlock{
+    font-size: 18px;
+  }
+}
