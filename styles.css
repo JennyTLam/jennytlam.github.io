@@ -21,8 +21,8 @@ body, html {
 /* Place text in the middle of the image */
 .hero-text{
     text-align: center;
-    position: absolute;
-    top: 60%;
+    position: relative;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
@@ -44,7 +44,10 @@ h1.name{
    text-align: center;
    position:center;
 }
-
+#borders{
+  border: 1px solid;
+  border-color: purple;
+}
 #blue{
   span;
   background-color:azure;
@@ -127,6 +130,7 @@ img{
   border-radius:25px;
   border-style:solid;
   margin:5px;
+  max-width: 100%;
 }
 
 .gallery{
@@ -135,6 +139,12 @@ img{
 
 .contact{
   text-align: center;
+}
+
+.w3-container{
+  text-align:center;
+  font-family: Georgia;
+  background: azure;
 }
 
 #hi{
@@ -198,13 +208,31 @@ button{
   border-radius: 25px;
 }
 
-.button:hover {background-color: mintcream}
+.button:hover {background-color: #b3ffe6}
 
 .button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 
+  * {
+    box-sizing: border-box;
+}
+
+.w3-bar-item w3-button tablink w3-red:hover{background-color: #b3ffe6}
+.w3-bar-itm w3-button tablink w3-red:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  * {
+    box-sizing: border-box;
+}
+
+.w3-bar-item w3-button tablink:hover{background-color: #b3ffe6}
+.w3-bar-itm w3-button tablink:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
   * {
     box-sizing: border-box;
 }
@@ -257,4 +285,9 @@ body {
         max-width: 100%;
     }
   }
-  
+
+  @media only screen and (max-width:100px) {
+  /* For mobile phones: */
+  .mainBlock {
+    width:100%;
+  }
