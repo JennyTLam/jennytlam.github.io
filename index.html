@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <!-- Controls initial content size on other devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head>
+    <!-- link CSS and JS and -->
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="app.js"></script>
+    <!-- Compatible website icons-->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -25,55 +26,58 @@
     <meta name="theme-color" content="#ffffff">
     <title> I'm Jenny Lam </title>
   </head>
-  <script src="app.js"></script>
+  <style>{text-decoration: none}</style>
   <body>
+    <!--Introduction Image-->
     <div class="hero-image">
       <div class="hero-text">
-        <h1 class="namer"><em>Hello, I'm </em></h1>
-        <h1 class="name"><strong> __ Jenny Lam __  </strong></h1>
+        <h1 class="namer">Hello, I'm</h1>
+        <h1 class="name"><sup>__</sup> Jenny Lam <sup>__</sup></h1>
       </div>
     </div>
-    <div id="hi">
-      <div id="blue">
-        <div class="intro">
-          <div class="introx">
-            <h3 > Welcome to a glimpse of my world! Excited to experience projects and challenges of the future,
-              I'm a Northwestern University sophomore Computer Science major pursuing interests in artificial intelligence and innovative software engineering.
-              In my free time, you can find me sketching out designs, perusing <a href="https://www.themuse.com/"><em>The Muse</em></a>, brainstorming ideas, and turning expectations into reality. </h3>
-          </div>
-        </div>
+
+    <!--Introduction Caption-->
+    <div class="intro">
+      <div class="introx">
+         Welcome to a glimpse of my world! Excited to experience projects and challenges of the future,
+         I'm a Northwestern University sophomore Computer Science major pursuing interests in artificial intelligence and innovative software engineering.
+         In my free time, you can find me sketching designs, perusing <a href="https://www.themuse.com/" target="_blank"><em>The Muse</em></a>, brainstorming, and turning expectations into reality.
       </div>
     </div>
+
+    <!--Main Work and Projects Section-->
     <div class="mainBlock">
-      <h2 class="sections"><strong> <sup>_________</sup> Upcoming <sup>_________</sup> </strong></h2>
-        <h3 class="subs"><em> Find opportunities. </em> </h3>
+      <h2 class="sections"> <sup>_____</sup> Upcoming <sup>_____</sup> </h2>
+        <h3 class="subs">Find opportunities.</h3>
       <div class="sect">
         <div class="introbox">
           <div class="frame">
             <img class="box" src="Grace.jpeg" alt=" 2018 Grace Hopper Celebration" width="350" height="250">
           </div>
-          <h3 class="items"> <a href="https://ghc.anitab.org/">2018 Grace Hopper Celebration</a> </h3>
+          <h3 class="items"> 2018 Grace Hopper Celebration</h3>
           <h4 class="descript"> Houston, Texas </h4>
-          <p> Produced by <a href="https://anitab.org/">AnitaB.org</a> and the <a href="https://www.acm.org/">Association for Computing Machinery</a>,
-            the Grace Hopper Celebration is an annual convention packed with keynote speakers, product presentations,
+          <p> Produced by <a href="https://anitab.org/" target="_blank">AnitaB.org</a> and the <a href="https://www.acm.org/" target="_blank">Association for Computing Machinery</a>,
+            the <a href="https://ghc.anitab.org/" target="_blank">Grace Hopper Celebration</a>  is an annual convention packed with keynote speakers, product presentations,
             workshops, and chances to connect with women technologists from diverse backgrounds. In September, I'll be traveling to Houston, TX with fellow members of <a href="http://www.eecs.northwestern.edu/wic/">Northwestern University's
             Women in Computing</a> Chapter to share emerging ideas, gain mentorship, develop professionally, and explore possibilities across industry and academia.
           </p>
         </div>
       </div>
       <br>
-      <br>
-      <h2 class="sections"><strong> <sup>_________</sup> Work So Far <sup>_________</sup> </strong></h2>
-        <h3 class="subs"><em> Success is a moving target. </em> </h3>
 
+      <h2 class="sections"> <sup>_____</sup> Work So Far <sup>_____</sup> </h2>
+        <h3 class="subs">Success is a moving target.</h3>
         <div class="sect">
           <div class="introbox">
             <div class="frame">
               <img class="box" id="borders" src="NU|Tutors.jpg" alt="Tutoring" width="350" height="250">
             </div>
-            <h3 class="items"> NU|Tutors, Northwestern Student Holdings </h3>
+            <h3 class="items">  NU|Tutors, Student Holdings </h3>
             <h4 class="descript"> On-Campus and Northshore Private Tutor </h4>
-            <p>  </p>
+            <p> <a href="https://www.nututors.com/" target="_blank">NU|Tutors</a> is an Evanston based K-12 tutoring company launched and operating under Northwestern Student Holdings, which manages student-run
+              businesses on-campus. Services include private tutoring, SAT and ACT standardized test prep, and college essay writing. As a tutor with NU|Tutors, my focus is on
+              helping high school students better understand material in Chemistry, Physics, and Mathematics in preparation for coursework and advanced placement exams.
+              </p>
           </div>
         </div>
 
@@ -85,111 +89,121 @@
             <h3 class="items"> Coding My Personal Website </h3>
             <h4 class="descript"> HTML, CSS, Javascript Project</h4>
             <p> A personal project in website design and development, creating my own website gave me a chance to reflect on accomplishments and challenges for future reference.
-              Inspired by articles and examples from Google Engineer <a href="https://www.garysheng.com">Gary Sheng</a>, I gathered snippets of past employment and projects to assemble a showcase of memories and lessons learned.
+              Inspired by articles and examples from Google Engineer <a href="https://www.garysheng.com" target="_blank">Gary Sheng</a>, I gathered snippets of past employment and projects to assemble a showcase of memories and lessons learned.
               Check out my GitHub for the source code and more information:
-              <a href="https://github.com/JennyTLam/JennyTLam.github.io"> JennyTLam.github.io </a> </p>
+              <a href="https://github.com/JennyTLam/JennyTLam.github.io" target="_blank"> JennyTLam.github.io </a> </p>
           </div>
         </div>
+
         <div class="sect">
           <div class="introbox">
             <div class="frame">
               <img class="box" src="IMG_123.JPG" alt="HotPlate Logo" width="350" height="250">
             </div>
-            <h3 class="items"> <a href="hotplateapp.com">HotPlate, Northwestern StartUp</a></h3>
-            <h4 class="descript"> Entrepreneurial Design Thinking and Communication Course Project </h4>
-            <p> My team worked on designing and prototyping a dish-specific food review mobile application to improve <a href="https://www.hotplateapp.com"> HotPlate app </a> users' dining experience by helping them discover popular cuisine and restaurants in the downtown Evanston area.
+            <h3 class="items"> HotPlate, Northwestern StartUp</h3>
+            <h4 class="descript"> Entrepreneurial Design Thinking and Communication Project </h4>
+            <p> My team worked on designing and prototyping a dish-specific food review mobile application to improve <a href="https://www.hotplateapp.com" target="_blank"> HotPlate app </a> users' dining experience by helping them discover popular cuisine and restaurants in the downtown Evanston area.
               Through interviews with the client HotPlate executive team, food review industry experts, analyzing user and performance testing, and food app market research, we wireframed product features and refined our project's business model canvas.
-              Our deliverables included app <a href="https://drive.google.com/drive/folders/13dupDSNJcuYm9XtB1SiTHysYgmbK_le3?usp=sharing">prototype </a> created using <a href="www.proto.io">proto.io</a>, an online wireframing platform,
-              <a href="https://drive.google.com/file/d/1xC8lYR_I-3cRx3LIsPlbhLGsQmszEWC5/view?usp=sharing"> the final report </a>, and <a href="https://docs.google.com/presentation/d/1wI73mMItSi0uLsADf_geG3RtZr5rt9xBIGk32IS1Vcg/edit?usp=sharing"> team presentation </a>. </p>
+              Our deliverables included app <a href="https://drive.google.com/drive/folders/13dupDSNJcuYm9XtB1SiTHysYgmbK_le3?usp=sharing" target="_blank">prototype </a> created using <a href="www.proto.io" target="_blank">proto.io</a>, an online wireframing platform,
+              <a href="https://drive.google.com/file/d/1xC8lYR_I-3cRx3LIsPlbhLGsQmszEWC5/view?usp=sharing" target="_blank"> the final report </a>, and <a href="https://docs.google.com/presentation/d/1wI73mMItSi0uLsADf_geG3RtZr5rt9xBIGk32IS1Vcg/edit?usp=sharing" target="_blank"> team presentation </a>. </p>
           </div>
         </div>
+
         <div class="sect">
           <div class="introbox">
             <div class="frame">
               <img class="box" src="IMG_3042.JPG" alt="DTC I Poster Presentation" width="350" height="250">
             </div>
-            <h3 class="items"><a href="https://www.sralab.org/"> Shirley Ryan AbilityLab </a></h3>
-            <h4 class="descript"> Design Thinking and Communication Course Project </h4>
-            <p> Focused on human centered-design, this fundamental engineering course partnered with client Shirley Ryan AbilityLab tasked us with building a non-permanent handrail extension to help a child with arthropogosis, a congenital joint disorder, ascend stairs safely, comfortably, and confidently within their home.
-              By conducting thorough user observation in the design environment, analyzing aspects of competitive and model products, and testing different iterations of mockup ideas, our team built and refined our <a href="https://drive.google.com/file/d/1PRzrpaF0ZyGrgWz25OOmK2VZEEe-x2ls/view?usp=sharing">Step-By-Step Handrail Extension</a> prototype
-              for <a href="https://drive.google.com/file/d/12nWYGzzdnekw-Pbhh-dKsydb2s3fZl-N/view?usp=sharing">presentation</a> at Northwestern's Winter Quarter DTC Design Exposition.</p>
+            <h3 class="items">Shirley Ryan AbilityLab</h3>
+            <h4 class="descript"> Design Thinking and Communication Project </h4>
+            <p> Focused on human centered-design, this fundamental engineering course partnered with client <a href="https://www.sralab.org/" target="_blank"> Shirley Ryan AbilityLab</a>tasked us with building a non-permanent handrail extension to help a child with arthropogosis, a congenital joint disorder, ascend stairs safely, comfortably, and confidently within their home.
+              By conducting thorough user observation in the design environment, analyzing aspects of competitive and model products, and testing different iterations of mockup ideas, our team built and refined our <a href="https://drive.google.com/file/d/1PRzrpaF0ZyGrgWz25OOmK2VZEEe-x2ls/view?usp=sharing" target="_blank">Step-By-Step Handrail Extension</a> prototype
+              for <a href="https://drive.google.com/file/d/12nWYGzzdnekw-Pbhh-dKsydb2s3fZl-N/view?usp=sharing" target="_blank">presentation</a> at Northwestern's Winter Quarter DTC Design Exposition.</p>
           </div>
         </div>
+
         <div class="sect">
           <div class="introbox">
             <div class="frame">
               <img class="box" src="IMG_4179.jpg" alt="Underwater SearPerch Robotics" width="350" height="250">
             </div>
-            <h3 class="items"> <a href="https://www.ubmsneiu.org/innovation-afterschool"> Northeastern Illinois University</a> </h3>
+            <h3 class="items">  Northeastern Illinois University </h3>
             <h4 class="descript"> Underwater Robotics Program Instructor Assistant </h4>
             <p> While exploring and learning more about remotely operated vehicles, I trained high school students to use PVC cutters, soldering irons, hand drills, and computer-aided design software to build underwater SeaPearch robots as part of a Chicago <a href="https://www.afterschoolmatters.org/">After School Matters</a> summer program at NEIU.
               Some of my additional administrative tasks included updating program attendance, managing inventory and equipment, and reporting to the instructor on the students' progress.
               Watching young minds working together, tinkering, and customizing their bots was heartwarming, and inspired me to continue pursuing creative engineering design projects as I entered college.</p>
           </div>
         </div>
+
         <div class="sect">
           <div class="introbox">
             <div class="frame">
               <img class="box" src="CMAA.jpg" alt="CMAA logo" width="350" height="250">
             </div>
-            <h3 class="items"> <a href="https://www.chinesemutualaid.org/" alt="CMAA website">Chinese Mutual Aid Association</a></h3>
+            <h3 class="items">Chinese Mutual Aid Association</h3>
             <h4 class="descript"> Youth Enrichment Summer Camp Counselor </h4>
             <p> I tutored students grades K-8 in core curriculum and assisted in Mandarin language classes. I collaborated with junior counselors to organize team bonding activities and recreation, such as plannning and supervising a downtown Chicago cultural immersion photo scavenger hunt.
               I also helped members of Young Women Warriors, a group of mentee students, in holding a fundraising booth at the Argyle Night Market. For more information on Chinese Mutual Aid Association's  <a href="https://www.chinesemutualaid.org/youth"> Youth Programs </a> and Young Women Warriors,
-              please visit their <a href="https://www.chinesemutualaid.org/" alt="CMAA website"> website </a> . </p>
+              please visit their <a href="https://www.chinesemutualaid.org/" alt="CMAA website" target="_blank"> website </a> . </p>
           </div>
         </div>
+
         <div class="sect">
           <div class="introbox">
             <div class="frame">
             </div>
-            <h3 class="items"> <a href="https://www.northsideprep.org/"><strong> Northside College Prep. High School </strong></a>, <em> Chicago, Illinois </em> </h3>
+            <h3 class="items"> <strong> Northside College Prep. High School </strong>, <em> Chicago, Illinois </em> </h3>
             <h4 class="descript"> Salutatorian, Class of 2017 </h4>
           </div>
         </div>
+
     </div>
 
     <div class="gallery"> <br>
-      <h2 class="sections"> <sup>_________</sup> Events Snapshots <sup>_________</sup>  </h2>
-        <h3 class="subs"> <em> Smile every day. </em> </h3>
-      <center><div id="photos">
-        <img src="IMG_3520.JPG" alt="Green" width="300" height="200">
-        <img src="IMG_1286.JPG" alt="Senior Celebration, Freshman Class" width="300" height="200">
-        <img src="MeetFresh.jpg" alt="Trying Meet Fresh at Chicago Chinatown" width="300" height="200">
-        <img src="IMG_1820.JPG" alt="Celebrate Winter Quarter" width="300" height="200">
-        <img src="IMG_2423.JPG" alt="Chinese Student Association Celebrasia" width="300" height="200">
-        <img src="AAIV.jpg" alt="Sister's Appreciation Banquet" width="300" height="200">
-        <img src="IMG_1667.JPG" alt="Ayers Residential College of Commerce and Industry Holiday Party" width="300" height="200">
-        <img src="SeniorLuncheon.JPG" alt="Northside College Prep Senior Luncheon" width="300" height="200">
-        <img src="ICL2.JPG" alt="Illinois Certamen League Victory" width="300" height="200">
-        <img src="ICL copy.jpg" alt="Illinois Certamen League Victory" width="300" height="200">
-        <img src="ICL.JPG" alt="Illinois Certamen League Victory" width="300" height="200">
-        <img src="NotreDameWin.JPG" alt="University of Notre Dame Invitational" width="300" height="200">
-      </div> </center> <br><br><br>
+      <h2 class="sections"> <sup>____</sup> Events Snapshots <sup>____</sup>  </h2>
+        <h3 class="subs"> Smile every day.</h3>
+      <center>
+        <div id="photos">
+          <img src="IMG_3520.JPG" alt="Green" width="300" height="200">
+          <img src="IMG_1286.JPG" alt="Senior Celebration, Freshman Class" width="300" height="200">
+          <img src="MeetFresh.jpg" alt="Trying Meet Fresh at Chicago Chinatown" width="300" height="200">
+          <img src="IMG_1820.JPG" alt="Celebrate Winter Quarter" width="300" height="200">
+          <img src="IMG_2423.JPG" alt="Chinese Student Association Celebrasia" width="300" height="200">
+          <img src="AAIV.jpg" alt="Sister's Appreciation Banquet" width="300" height="200">
+          <img src="IMG_1667.JPG" alt="Ayers Residential College of Commerce and Industry Holiday Party" width="300" height="200">
+          <img src="SeniorLuncheon.JPG" alt="Northside College Prep Senior Luncheon" width="300" height="200">
+          <img src="ICL2.JPG" alt="Illinois Certamen League Victory" width="300" height="200">
+          <img src="ICL copy.jpg" alt="Illinois Certamen League Victory" width="300" height="200">
+          <img src="ICL.JPG" alt="Illinois Certamen League Victory" width="300" height="200">
+          <img src="NotreDameWin.JPG" alt="University of Notre Dame Invitational" width="300" height="200">
+        </div>
+      </center>
+      <br><br><br>
     </div>
 
-
     <div class="travel"> <br>
-      <h2 class="sections"> <sup>_________</sup> Travel <sup>_________</sup>  </h2>
-        <h3 class="subs"><em> Explore ideas and the world. </em> </h3>
+      <h2 class="sections"> <sup>________</sup> Travel <sup>________</sup>  </h2>
+        <h3 class="subs">Explore ideas and the world. </h3>
         <center>
           <div id="map">
             <img src="map.png" alt="Places I've Visited" width="900" height="600">
           </div>
         </center>
     </div>
-    <footer><div class="contact">
-      <h2 class="sections"> <sup>_________</sup> Connect <sup>_________</sup> </h2>
-      <h3 class="subs"> <em> Let's get in touch. </em> </h3>
-      <h4>
-        <a href="https://www.linkedin.com/in/jenny-lam-331819149/"><button class="button"><img src="LinkedIn.png" alt="LinkedIn" width="40" height="40"> LinkedIn </button></a>
-        <a href="https://www.facebook.com/jennyt.lam.5"><button class="button"><img src="FB.png" alt="Facebook" width="40" height="40"> Facebook </button></a>
-        <br>
-        <br>
-        <h4 class="descript"><em> Designed and built by Jenny Lam and hosted on GitHub pages.<em></h4>
-      </h4>
-    </div>
-  </footer>
 
-    </body>
+    <footer>
+      <div class="contact">
+        <h2 class="sections"> <sup>________</sup> Connect <sup>________</sup> </h2>
+        <h3 class="subs"> Let's get in touch. </h3>
+        <h4>
+          <a href="https://www.linkedin.com/in/jenny-lam-331819149/" target="_blank"><button class="button"><img src="LinkedIn.png" alt="LinkedIn" width="40" height="40"> </button></a>
+          <a href="https://www.facebook.com/jennyt.lam.5" target="_blank"><button class="button"><img src="FB.png" alt="Facebook" width="40" height="40"> </button></a>
+          <br><br>
+          <h4 class="descript"><em> Designed and built by Jenny Lam and hosted on GitHub pages.<em></h4>
+        </h4>
+      </div>
+      <br>
+    </footer>
+
+  </body>
 </html>
