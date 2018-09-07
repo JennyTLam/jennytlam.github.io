@@ -130,6 +130,7 @@ h1.name{
 img{
   border-radius:25px;
   margin:5px;
+  max-width: 100%;
 }
 
 .gallery{
